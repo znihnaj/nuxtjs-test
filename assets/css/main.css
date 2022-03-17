@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 101%;
+}
+
+.small-width {
+  width: 200px;
+}
+
+.block-wrapper {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.block-wrapper, a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.block {
+  min-width: 50vw;
+  height: 300px;
+  padding: 2rem;
+  background-color: blueviolet;
+}
+
+.small-block {
+  min-width: 40vw;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: aqua;
+  margin-bottom: 2em;
+}
+
+header.navbar {
+  max-width: 30%;
+  background-color: rgba(256, 256, 256, 0.6);
+}
+
+.closeBtn {
+  position: fixed;
+  top: 5em;
+  left: 6em;
+}
+
+#wrapper.hide-elements .block-wrapper {
+  display: none;
+}
+
+#wrapper.hide-elements .show {
+  display: block;
+}
